@@ -91,7 +91,7 @@ Agora é a parte do particionamento.
 ### Dual Boot:
 No dual boot, você irá escolher a opção "*Instalar o Ubuntu ao lado do Windows*". Com isso, abrirá uma tela onde você pode arrastar um divisor para particionar o disco. **Tome cuidado para não deixar o Windows com menos memória do que o que está sendo usado para não apagar os arquivos e/ou corromper o sistema**.
 
-Após escolher a memória destinada aos SOs, clique em *Instalar agora* e prossiga com a instalação até o final e você terá seu Ubuntu pronto pra ser usado. :smiley:
+Após escolher a memória destinada aos SOs, clique em *Instalar agora* e prossiga com a instalação até o final e você terá seu Ubuntu pronto pra ser usado.
 <br>
 
 ### Máquina Virtual:
