@@ -7,7 +7,8 @@ Recomendo a versão _18.04 LTS_ (Long Term Support) em vez da versão _19.10_  p
 Em breve, a versão _20.04 LTS_ será lançada e o Ubuntu possui [um recurso](https://ubuntu.com/tutorials/tutorial-upgrading-ubuntu-desktop#1-before-you-start "Como atualizar o Ubuntu de uma versão para outra") para atualizar suas versões de maneira simples. Fica a dica para quem quiser fazer o upgrade de maneira fácil.
 Tendo feito o download da iso do Ubuntu, vamos começar a instalação.
 
-Você pode fazer a instalação tanto em uma [máquina virtual](https://github.com/LMFRomero/linuxTutorial/blob/master/README.md#m%C3%A1quina-virtual), quanto em sua própria máquina por meio de um [dual boot](https://github.com/LMFRomero/linuxTutorial/blob/master/README.md#dual-boot)
+Você pode fazer a instalação tanto em uma [máquina virtual](https://github.com/LMFRomero/linuxTutorial/blob/master/README.md#m%C3%A1quina-virtual), quanto em sua própria máquina por meio de um [dual boot](https://github.com/LMFRomero/linuxTutorial/blob/master/README.md#dual-boot).
+Alguns passos no momento da instalação (como configurar horas e etc) foram omitidos por serem demasiados intuitivos.
 <br>
 
 ### Dual boot:
@@ -16,7 +17,7 @@ Agora, abra o programa pra ver a seguinte tela:
 
 <div style="text-align:center"><img src="https://rufus.ie/pics/rufus_pt_BR.png" title="Rufus"/></div><br>
 
-Para tal, escolha o pendrive onde você irá criar o instalador em Dispositivos procure o arquivo .iso com o botão SELECIONAR, clique em INICIAR, depois em OK, na janela que abrirá.
+Para criar o pendrive bootável, escolha o pendrive onde você irá criar o instalador em *Dispositivos* procure o arquivo .iso com o botão SELECIONAR, clique em INICIAR, depois em OK, na janela que abrirá.
 
 Antes do próximo passo, veja quanta memória o seu Windows ocupa. Você pode fazer isso vendo nas propriedades do drive (C:):
 
