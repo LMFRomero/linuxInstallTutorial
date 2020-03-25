@@ -7,7 +7,7 @@ Recomendo a versão _18.04 LTS_ (Long Term Support) em vez da versão _19.10_  p
 Em breve, a versão _20.04 LTS_ será lançada e o Ubuntu possui [um recurso](https://ubuntu.com/tutorials/tutorial-upgrading-ubuntu-desktop#1-before-you-start "Como atualizar o Ubuntu de uma versão para outra") para atualizar suas versões de maneira simples. Fica a dica para quem quiser fazer o upgrade de maneira fácil.
 Tendo feito o download da iso do Ubuntu, vamos começar a instalação.
 
-O tutorial para ambos os métodos será feito junto, exceto quando for especificado o método. Obviamente, siga o método que você irá usar, ou está usando. 
+Você pode fazer a instalação tanto em uma [máquina virtual](https://github.com/LMFRomero/linuxTutorial/blob/master/README.md#m%C3%A1quina-virtual), quanto em sua própria máquina, por meio de um [dual boot](https://github.com/LMFRomero/linuxTutorial/blob/master/README.md#dual-boot)
 <br>
 
 ### Dual boot:
@@ -28,6 +28,23 @@ Agora que você tem um pendrive bootável, vamos em *Settings > Update & Securit
 Selecione a opção de iniciar com um dispositivo, e procure por USB HDD, ou algo próximo disso.
 
 O GRUB será iniciado, e você escolhe a opção de instalar o Ubuntu.
+<br>
+
+Configure seu teclado, e avance para o próximo passo.
+
+Também aparecerá uma tela para se conectar ao wifi.
+
+Agora, você irá escolher como será a instalação.
+
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/vmTipoDeInstall.png" /></div><br>
+
+Prossiga com a *Instalação normal* e a opção de *Baixar atualizações enquanto instala o Ubuntu*
+
+Agora é a parte do particionamento:
+<br>
+Você irá escolher a opção "*Instalar o Ubuntu ao lado do Windows*". Com isso, abrirá uma tela onde você pode arrastar um divisor para particionar o disco. **Tome cuidado para não deixar o Windows com menos memória do que o que está sendo usado para não apagar os arquivos e/ou corromper o sistema**.
+
+Após escolher a memória destinada aos SOs, clique em *Instalar agora* e prossiga com a instalação até o final e você terá seu Ubuntu pronto pra ser usado.
 <br>
 
 ### Máquina virtual:
@@ -74,27 +91,6 @@ Em **View**, vá em *Virtual Screen 1* e use *Resize* para trocar a resolução 
 Depois, clique em *Instalar Ubuntu*. 
 <br>
 
-### Ambos:
-Configure seu teclado, e avance para o próximo passo.
-
-Se você estiver fazendo **dual boot**, aparecerá uma tela para se conectar ao wifi.
-
-Agora, você irá escolher como será a instalação.
-
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/vmTipoDeInstall.png" /></div><br>
-
-Prossiga com a *Instalação normal* e a opção de *Baixar atualizações enquanto instala o Ubuntu*
-
-Agora é a parte do particionamento.
-<br>
-
-### Dual Boot:
-No dual boot, você irá escolher a opção "*Instalar o Ubuntu ao lado do Windows*". Com isso, abrirá uma tela onde você pode arrastar um divisor para particionar o disco. **Tome cuidado para não deixar o Windows com menos memória do que o que está sendo usado para não apagar os arquivos e/ou corromper o sistema**.
-
-Após escolher a memória destinada aos SOs, clique em *Instalar agora* e prossiga com a instalação até o final e você terá seu Ubuntu pronto pra ser usado.
-<br>
-
-### Máquina Virtual:
 Nesse caso, como estamos usando o disco virtual, então iremos usar todo o disco:
 
 <div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/vmApagarDisco.png" /></div><br>
