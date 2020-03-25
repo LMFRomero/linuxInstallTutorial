@@ -7,7 +7,7 @@ Recomendo a versão _18.04 LTS_ (Long Term Support) em vez da versão _19.10_  p
 Em breve, a versão _20.04 LTS_ será lançada e o Ubuntu possui [um recurso](https://ubuntu.com/tutorials/tutorial-upgrading-ubuntu-desktop#1-before-you-start "Como atualizar o Ubuntu de uma versão para outra") para atualizar suas versões de maneira simples. Fica a dica para quem quiser fazer o upgrade de maneira fácil.
 Tendo feito o download da iso do Ubuntu, vamos começar a instalação.
 
-Você pode fazer a instalação tanto em uma [máquina virtual](https://github.com/LMFRomero/linuxTutorial/blob/master/README.md#m%C3%A1quina-virtual), quanto em sua própria máquina, por meio de um [dual boot](https://github.com/LMFRomero/linuxTutorial/blob/master/README.md#dual-boot)
+Você pode fazer a instalação tanto em uma [máquina virtual](https://github.com/LMFRomero/linuxTutorial/blob/master/README.md#m%C3%A1quina-virtual), quanto em sua própria máquina por meio de um [dual boot](https://github.com/LMFRomero/linuxTutorial/blob/master/README.md#dual-boot)
 <br>
 
 ### Dual boot:
