@@ -89,9 +89,16 @@ Em **View**, vá em *Virtual Screen 1* e use *Resize* para trocar a resolução 
 <div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/vmInstalar.png" /></div><br>
 
 Depois, clique em *Instalar Ubuntu*. 
-<br>
 
-Nesse caso, como estamos usando o disco virtual, então iremos usar todo o disco:
+Configure seu teclado, e avance para o próximo passo.
+
+Agora, você irá escolher como será a instalação.
+
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/vmTipoDeInstall.png" /></div><br>
+
+Prossiga com a *Instalação normal* e a opção de *Baixar atualizações enquanto instala o Ubuntu*
+
+Agora é a parte do particionamento. Nesse caso, como estamos usando o disco virtual, então iremos usar todo o disco:
 
 <div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/vmApagarDisco.png" /></div><br>
 
