@@ -21,7 +21,7 @@ Para criar o pendrive bootável, escolha o pendrive onde você irá criar o inst
 
 Antes do próximo passo, veja quanta memória o seu Windows ocupa. Você pode fazer isso vendo nas propriedades do drive (C:):
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/dbDiskSpace.png"/></div><br>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/images/dbDiskSpace.png"/></div><br>
 
 
 Agora que você tem um pendrive bootável, vamos em *Settings > Update & Security > Recovery* nas configurações do Windows, e, embaixo de *Advanced Startup*, clique em *Restart Now*.
@@ -37,7 +37,7 @@ Também aparecerá uma tela para se conectar ao wifi.
 
 Agora, você irá escolher como será a instalação.
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/vmTipoDeInstall.png" /></div><br>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/images/vmTipoDeInstall.png" /></div><br>
 
 Prossiga com a *Instalação normal* e a opção de *Baixar atualizações enquanto instala o Ubuntu*
 
@@ -51,33 +51,33 @@ Após escolher a memória destinada aos SOs, clique em *Instalar agora* e prossi
 ### Máquina virtual:
 Para instalar em uma máquina virtual, você irá precisar de um software de virtualização, como o [VirtualBox](https://download.virtualbox.org/virtualbox/6.1.4/VirtualBox-6.1.4-136177-Win.exe "Baixe o virtualbox aqui"). Instale caso você ainda não tenha.
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/vmInicial.png" title="Rufus"/></div><br>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/images/vmInicial.png" title="Rufus"/></div><br>
 
 Clique em **New**, para criar uma nova máquina virtual, escolha um nome e coloque as configurações abaixo e depois clique em **Next**.
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/vmNome%26SO.png"/></div><br>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/images/vmNome%26SO.png"/></div><br>
 
 Escolha um tamanho da memória que será alocada para a VM. Busque manter na faixa verde, pois, mesmo alocando mais RAM para a VM, o seu computador pode perder performance, fazendo a VM também perder. Pessoalmente, mantendo no limite da parte verde (~4096 MB, no meu caso), nunca deu muitos problemas.
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/vmRAM.png"/></div><br>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/images/vmRAM.png"/></div><br>
 
 Na próxima tela, você irá criar um novo disco virtual.
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/vmHD.png"/></div><br>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/images/vmHD.png"/></div><br>
 
 Clique em **Create** e depois em **Next** até chegar nesta imagem:
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/vmStorageSize.png"/></div><br>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/images/vmStorageSize.png"/></div><br>
 
 Dê o tamanho de memória para o HD virtual que julgar necessário (a título de comparação, se você usar bastante Linux mas não como SO principal, 30 GBs é mais que suficiente) e clique em **Create**.
 
 Agora, clique com o botão direito na VM e vá em **Settings**.
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/vmSettings.png"/></div><br>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/images/vmSettings.png"/></div><br>
 
 Lá você irá carregar a ISO com os seguintes passos:
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/vmChooseISO.png"/></div><br>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/images/vmChooseISO.png"/></div><br>
 
 Em *4*, você procura a ISO pelos seus diretórios.
 
@@ -87,7 +87,7 @@ Após isso, clique em **OK** e depois em **Start**.
 
 Em **View**, vá em *Virtual Screen 1* e use *Resize* para trocar a resolução para uma que mais te agrade. Depois, ainda em **View**, clique em *Adjust Windows Size*.
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/vmInstalar.png" /></div><br>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/images/vmInstalar.png" /></div><br>
 
 Depois, clique em *Instalar Ubuntu*. 
 
@@ -95,13 +95,13 @@ Configure seu teclado, e avance para o próximo passo.
 
 Agora, você irá escolher como será a instalação.
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/vmTipoDeInstall.png" /></div><br>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/images/vmTipoDeInstall.png" /></div><br>
 
 Prossiga com a *Instalação normal* e a opção de *Baixar atualizações enquanto instala o Ubuntu*
 
 Agora é a parte do particionamento. Nesse caso, como estamos usando o disco virtual, então iremos usar todo o disco:
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/vmApagarDisco.png" /></div><br>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/LMFRomero/linuxTutorial/master/images/vmApagarDisco.png" /></div><br>
 
 Clique em *Instalar agora*, e continue com a instalação até finalizar.
 
