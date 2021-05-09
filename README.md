@@ -147,10 +147,10 @@ Em seguida digite o seguinte comando:
 `export DISPLAY=IP:0`, por exemplo, se o IP é 255.255.255.255 o comando seria `export DISPLAY=255.255.255.255:0`
 
 Nesse ponto tudo já deve estar funcionando, uma maneira fácil de testar é utilizando o `xeyes`, que pode ser instalado pelo pacote x11-apps.
-Para instalar basta digitar os seguintes comandos:
-`sudo apt install x11-apps`
+Para instalar basta executar o comando
+`sudo apt install x11-apps`.
 
-Agora basta digitar `xeyes` e uma janela com dois olhinhos que seguem o mouse deve aparecer na tela.
+Agora basta digitar `xeyes` e dar enter que uma janela com dois olhinhos que seguem o mouse deve aparecer na tela.
 
 OBS: O comando `export DISPLAY=IP:0` deve ser utilizado sempre que ligar a WSL2 novamente. Uma maneira de facilitar é utilizando `export DISPLAY=$(route.exe print | grep 0.0.0.0 | head -1 | awk '{print $4}'):0.0
 `, pois esse comando obtém o IP automaticamente.
